@@ -8,19 +8,19 @@ export const styles = StyleSheet.create({
   },
   imageBackground: {
     flex: 1,
-    width: "100%", // Faz o fundo cobrir toda a largura da tela
+    width: "100%", 
     justifyContent: "flex-start",
   },
   header: {
-    alignItems: "center", // Centraliza o conteúdo no cabeçalho
+    alignItems: "center", 
     padding: 20,
   },
   profileImage: {
     width: 120,
     height: 120,
-    borderRadius: 60, // Faz a borda redonda
-    borderWidth: 4, // Adiciona uma borda
-    borderColor: "#4F20EC", // Cor da borda
+    borderRadius: 60, 
+    borderWidth: 4,
+    borderColor: "#4F20EC", 
     marginBottom: 10,
   },
   name: {
@@ -63,5 +63,90 @@ export const styles = StyleSheet.create({
   optionText: {
     fontSize: 16,
     color: "#343a40",
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
+  },
+  modalContent: {
+    backgroundColor: "#fff",
+    padding: 10,
+    width: "80%",
+    borderRadius: 10,
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+  input: {
+    height: 40,
+    borderColor: "#ccc",
+    borderWidth: 1,
+    marginBottom: 10,
+    paddingHorizontal: 10,
+    borderRadius: 5,
+  },
+  modalButton: {
+    backgroundColor: "#fff",
+    paddingVertical: 10,
+    borderRadius: 5,
+    marginTop: 10,
+    borderWidth: 1,
+    borderColor: "#4F20EC",
+  },
+  modalButtonText: {
+    color: "#4F20EC",
+    fontSize: 16,
+    textAlign: "center",
+  },
+  noteContainer: {
+    marginBottom: 10,
+  },
+  noteText: {
+    fontSize: 16,
+  },
+  scheduleTable: {
+    width: "100%",
+    marginTop: 10,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: "#ccc",
+  },
+  scheduleHeader: {
+    flexDirection: "row",
+    backgroundColor: "#fff", 
+    paddingVertical: 10,
+    paddingHorizontal: 5,
+    justifyContent: "space-between",
+    borderBottomWidth: 1,
+    borderBottomColor: "#4F20EC", 
+  },
+  scheduleHeaderText: {
+    fontSize: 14,
+    color: "#4F20EC", 
+    fontWeight: "bold",
+  },
+  scheduleRow: {
+    flexDirection: "row",
+    paddingVertical: 10,
+    paddingHorizontal: 5,
+    justifyContent: "space-between",
+    borderBottomWidth: 1,
+    borderBottomColor: "#ddd",
+  },
+  scheduleText: {
+    fontSize: 14,
+  },
+  subjectContainer: {
+    marginBottom: 10,
+    paddingBottom: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: "#ddd",
+  },
+  subjectText: {
+    fontSize: 16,
   },
 });

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { View, Image, StyleSheet } from "react-native";
 import { StackNavigationProp } from "@react-navigation/stack";
+import { RootStackParamList } from "../../navigation/types"; // Importe corretamente o tipo
 
 type InicioScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
