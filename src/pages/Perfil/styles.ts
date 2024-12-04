@@ -16,15 +16,15 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 30,
     paddingBottom: 20,
-    borderBottomWidth: 0, // Removido a borda inferior
-    borderBottomColor: "transparent", // Garantir que a cor da borda seja transparente
+    borderBottomWidth: 0, 
+    borderBottomColor: "transparent", 
   },
   profileImage: {
     marginTop: 80,
     width: 120,
     height: 120,
     borderRadius: 60,
-    borderWidth: 0, // Certifique-se de que não há borda visível
+    borderWidth: 0, 
   },
   name: {
     fontSize: 24,
@@ -71,7 +71,7 @@ export const styles = StyleSheet.create({
   },
   optionText: {
     fontSize: 16,
-    color: "#4F20EC", // Ícones e texto dessa cor roxa
+    color: "#4F20EC", 
     textAlign: "center",
   },
   modalContainer: {
