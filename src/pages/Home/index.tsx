@@ -42,8 +42,10 @@ export default function Home() {
     <ImageBackground source={Fundo} style={styles.imageBackground}>
       <ScrollView contentContainerStyle={styles.container}>
         
-        <View style={styles.header}>
-          <Text style={styles.title2}>3 B MEDIOTEC</Text>
+      <View style={styles.header}>
+          <Text style={styles.welcomeText}>Bem-vindo(a)</Text> 
+          <Text style={styles.title}>Portal do Aluno</Text>
+          <Text style={styles.subtitle}>Turma: 3 Ano</Text>
         </View>
 
         <View style={styles.cardsContainer}>
