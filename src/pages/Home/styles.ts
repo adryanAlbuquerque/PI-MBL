@@ -53,6 +53,7 @@ export const styles = StyleSheet.create({
   cardGreen: {
     backgroundColor: "#20ECA6",
   },
+  
   cardText: {
     color: "#FFF",
     fontSize: 14,
@@ -71,7 +72,7 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     overflow: "hidden",
     backgroundColor: "#FFF",
-    padding: 5, 
+    padding: 5,
   },
   newsImage: {
     width: "100%",
@@ -80,11 +81,60 @@ export const styles = StyleSheet.create({
   newsText: {
     fontSize: 12,
     color: "#343a40",
-    padding: 5, 
+    padding: 5,
     textAlign: "center",
     flexWrap: "wrap",
   },
   spacing: {
     marginBottom: 30,
+  },
+
+  // Estilos para os modais
+  modalContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "rgba(0, 0, 0, 0.5)", // Fundo com transparência
+  },
+  modalContent: {
+    width: "85%",
+    backgroundColor: "#FFF",
+    borderRadius: 10,
+    padding: 20,
+    alignItems: "center",
+    elevation: 5, // Sombra para Android
+    shadowColor: "#000", // Sombra para iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+  },
+  modalTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#343a40",
+    marginBottom: 15,
+  },
+  modalRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    width: "100%",
+    marginBottom: 10,
+  },
+  modalText: {
+    fontSize: 14,
+    color: "#343a40",
+  },
+  modalButton: {
+    marginTop: 20,
+    backgroundColor: "#4F20EC",
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+    alignItems: "center",
+  },
+  modalButtonText: {
+    color: "#FFF",
+    fontWeight: "bold",
+    fontSize: 14,
   },
 });

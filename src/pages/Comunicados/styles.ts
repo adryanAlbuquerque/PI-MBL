@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   imageBackground: {
     flex: 1,
-    resizeMode: "cover", // Faz com que a imagem preencha a tela
+    resizeMode: "cover", 
   },
   container: {
     padding: 20,
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   header: {
     paddingVertical: 20,
     alignItems: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Fundo semitransparente
+    backgroundColor: "rgba(0, 0, 0, 0.5)", 
     borderRadius: 10,
     marginBottom: 20,
   },
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   card: {
-    backgroundColor: "rgba(255, 255, 255, 0.9)", // Fundo branco com transparência
+    backgroundColor: "rgba(255, 255, 255, 0.9)", 
     borderRadius: 10,
     padding: 20,
     shadowColor: "#000",
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     fontWeight: "bold",
-    color: "#4B0082", // Roxo escuro
+    color: "#4B0082", 
     marginBottom: 10,
   },
   cardBody: {
