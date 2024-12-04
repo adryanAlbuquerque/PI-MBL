@@ -15,8 +15,6 @@ Expo: Plataforma para facilitar o desenvolvimento com React Native
 
 🔧 Instalação
 
-Clone o repositório:
-
 Clone este repositório para a sua máquina local:
 
 No bash 
@@ -28,16 +26,15 @@ cd PI-MBL
 
 Instale as dependências com o comando:
 
-npm instal
+npm install
 
 Inicie o aplicativo:
 
 Se você estiver usando o Expo, inicie o servidor do Expo:
 
 No bash
-
 Copiar e colar código:
-expo start
+npm start
 
 Isso abrirá um QR Code no terminal, que pode ser escaneado no seu dispositivo para rodar o aplicativo.
 
