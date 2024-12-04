@@ -3,11 +3,9 @@ import { View, Text, FlatList, TouchableOpacity } from "react-native";
 import styles from "./styles";
 
 const HorariosScreen = () => {
-  // Lista de dias e horários
   const diasDaSemana = ["Seg", "Ter", "Qua", "Qui", "Sex"];
   const horarios = ["08:00 - 09:00", "09:00 - 10:00", "10:00 - 11:00", "11:00 - 12:00", "12:00 - 13:00", "13:00 - 14:00"];
 
-  // Exemplo de matérias (poderiam vir de um estado ou API)
   const materias = {
     "08:00 - 09:00": ["Mate.", "Física", "Bio.", "Quí.", "Geo."],
     "09:00 - 10:00": ["Port.", "Hist.", "Filo.", "Ed. Física", "Inglês"],
@@ -21,7 +19,7 @@ const HorariosScreen = () => {
     <View style={styles.row}>
       <Text style={styles.cell}>{item}</Text>
       {diasDaSemana.map((dia, index) => {
-        const materia = materias[item][index]; // Associa a matéria ao horário e dia
+        const materia = materias[item][index]; 
         return (
           <TouchableOpacity key={index} style={styles.cell}>
             <Text style={styles.cellText}>{materia}</Text>

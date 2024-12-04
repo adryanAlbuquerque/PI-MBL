@@ -16,15 +16,15 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 30,
     paddingBottom: 20,
-    borderBottomWidth: 0, // Removido a borda inferior
-    borderBottomColor: "transparent", // Garantir que a cor da borda seja transparente
+    borderBottomWidth: 0, 
+    borderBottomColor: "transparent", 
   },
   profileImage: {
     marginTop: 80,
     width: 120,
     height: 120,
     borderRadius: 60,
-    borderWidth: 0, // Certifique-se de que não há borda visível
+    borderWidth: 0, 
   },
   name: {
     fontSize: 24,
@@ -37,27 +37,32 @@ export const styles = StyleSheet.create({
   },
   editButton: {
     marginTop: 10,
-    paddingVertical: 5,
-    paddingHorizontal: 20,
-    backgroundColor: "#fff", // Cor do botão de edição alterada para branco
-    borderRadius: 5,
+    paddingVertical: 15, 
+    width: "80%", 
+    alignSelf: "center", 
+    backgroundColor: "#fff", 
+    borderRadius: 10,
     borderWidth: 1,
-    borderColor: "#4F20EC", // Cor da borda alterada para roxo
+    borderColor: "#4F20EC", 
   },
+
   editButtonText: {
-    color: "#4F20EC", // Cor do texto do botão alterada para roxo
-  },
-  optionsContainer: {
-    marginTop: 30,
-  },
-  sectionTitle: {
-    fontSize: 18,
+    color: "#4F20EC", 
     fontWeight: "bold",
-    marginBottom: 15,
+    fontSize: 16,
+    textAlign: "center",
+  },
+  
+  sectionTitle: {
+    fontSize: 25,
+    fontWeight: "bold",
+    marginBottom: 5,
     borderBottomWidth: 1,
     borderBottomColor: "#ddd",
-    paddingBottom: 10,
+    paddingBottom: 30,
+    textAlign: "center",
   },
+
   option: {
     marginBottom: 5,
     paddingVertical: 10,
@@ -66,7 +71,8 @@ export const styles = StyleSheet.create({
   },
   optionText: {
     fontSize: 16,
-    color: "#4F20EC", // Ícones e texto dessa cor roxa
+    color: "#4F20EC", 
+    textAlign: "center",
   },
   modalContainer: {
     flex: 1,
@@ -94,15 +100,15 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
   },
   modalButton: {
-    backgroundColor: "#fff", // Cor do botão modal alterada para branco
+    backgroundColor: "#fff", 
     paddingVertical: 10,
     borderRadius: 5,
     marginTop: 10,
     borderWidth: 1,
-    borderColor: "#4F20EC", // Cor da borda alterada para roxo
+    borderColor: "#4F20EC", 
   },
   modalButtonText: {
-    color: "#4F20EC", // Cor do texto do botão modal alterada para roxo
+    color: "#4F20EC", 
     fontSize: 16,
     textAlign: "center",
   },
@@ -121,16 +127,16 @@ export const styles = StyleSheet.create({
   },
   scheduleHeader: {
     flexDirection: "row",
-    backgroundColor: "#fff", // Cor de fundo alterada para branco
+    backgroundColor: "#fff", 
     paddingVertical: 10,
     paddingHorizontal: 5,
     justifyContent: "space-between",
     borderBottomWidth: 1,
-    borderBottomColor: "#4F20EC", // Cor da borda alterada para roxo
+    borderBottomColor: "#4F20EC", 
   },
   scheduleHeaderText: {
     fontSize: 14,
-    color: "#4F20EC", // Cor dos textos de cabeçalho alterada para roxo
+    color: "#4F20EC", 
     fontWeight: "bold",
   },
   scheduleRow: {

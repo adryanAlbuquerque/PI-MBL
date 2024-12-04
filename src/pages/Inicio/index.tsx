@@ -13,12 +13,12 @@ type Props = {
 
 export default function Inicio({ navigation }: Props) {
   useEffect(() => {
-    // Navega para a tela de Login após 3 segundos
+ 
     const timer = setTimeout(() => {
       navigation.replace("Login");
-    }, 3000); // 3 segundos
+    }, 3000); 
 
-    return () => clearTimeout(timer); // Limpa o timer ao desmontar o componente
+    return () => clearTimeout(timer); 
   }, [navigation]);
 
   return (

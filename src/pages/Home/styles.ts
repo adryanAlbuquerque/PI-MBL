@@ -19,11 +19,20 @@ export const styles = StyleSheet.create({
     alignItems: "flex-start",
   },
   title: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: "bold",
     color: "#343a40",
     marginBottom: 10,
   },
+
+  title2: {
+    fontSize: 25,
+    fontWeight: "bold",
+    color: "#343a40",
+    marginBottom: 10,
+    marginTop: -100,
+  },
+
   subtitle: {
     fontSize: 14,
     color: "#6c757d",
@@ -89,12 +98,12 @@ export const styles = StyleSheet.create({
     marginBottom: 30,
   },
 
-  // Estilos para os modais
+
   modalContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Fundo com transparência
+    backgroundColor: "rgba(0, 0, 0, 0.5)", 
   },
   modalContent: {
     width: "85%",
@@ -102,8 +111,8 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 20,
     alignItems: "center",
-    elevation: 5, // Sombra para Android
-    shadowColor: "#000", // Sombra para iOS
+    elevation: 5, 
+    shadowColor: "#000", 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 4,

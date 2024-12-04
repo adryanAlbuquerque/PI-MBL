@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, ScrollView, TouchableOpacity, Image, ImageBackground, Modal } from "react-native";
-import { styles } from "./styles"; // Importando o estilo
-import Fundo from "../../assets/background1.jpg"; // Imagem de fundo
+import { styles } from "./styles"; 
+import Fundo from "../../assets/background1.jpg";
 
 import VagaImage from "../../assets/Vaga.jpg";
 import RECnPlayImage from "../../assets/Recnplay.jpg";
@@ -32,22 +32,20 @@ export default function Home() {
   ];
 
   const curriculum = [
-    { subject: "Matemática", teacher: "Prof. Ana" },
-    { subject: "Português", teacher: "Prof. Carlos" },
-    { subject: "História", teacher: "Prof. Júlia" },
-    { subject: "Ciências", teacher: "Prof. Ricardo" },
-    { subject: "Geografia", teacher: "Prof. Mariana" },
+    { subject: "Suporte Acadêmico", teacher: "(81)1234-5678" },
+    { subject: "Coordenação", teacher: "(81)8765-4321" },
+    { subject: "Central Atendimento", teacher: "senac@pe.senac.br" },
+    { subject: "Financeiro", teacher: "0800 030 2245" },
   ];
 
   return (
     <ImageBackground source={Fundo} style={styles.imageBackground}>
       <ScrollView contentContainerStyle={styles.container}>
-        {/* Cabeçalho */}
+        
         <View style={styles.header}>
-          <Text style={styles.title}>Turma:</Text>
+          <Text style={styles.title2}>3 B MEDIOTEC</Text>
         </View>
 
-        {/* Disciplinas */}
         <View style={styles.cardsContainer}>
           <TouchableOpacity style={[styles.card, styles.cardBlue]} onPress={() => openModal(setNotesModalVisible)}>
             <Text style={styles.cardText}>Conceitos</Text>
@@ -60,7 +58,6 @@ export default function Home() {
           </TouchableOpacity>
         </View>
 
-        {/* Novidades */}
         <View style={styles.header}>
           <Text style={styles.title}>Novidades</Text>
           <Text style={styles.subtitle}>Setembro</Text>
@@ -84,7 +81,6 @@ export default function Home() {
         </ScrollView>
       </ScrollView>
 
-      {/* Modal para Notas */}
       <Modal animationType="slide" transparent={true} visible={notesModalVisible} onRequestClose={() => closeModal(setNotesModalVisible)}>
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
@@ -102,7 +98,6 @@ export default function Home() {
         </View>
       </Modal>
 
-      {/* Modal para Calendário */}
       <Modal animationType="slide" transparent={true} visible={calendarModalVisible} onRequestClose={() => closeModal(setCalendarModalVisible)}>
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
@@ -120,7 +115,6 @@ export default function Home() {
         </View>
       </Modal>
 
-      {/* Modal para Grade Curricular */}
       <Modal animationType="slide" transparent={true} visible={curriculumModalVisible} onRequestClose={() => closeModal(setCurriculumModalVisible)}>
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>

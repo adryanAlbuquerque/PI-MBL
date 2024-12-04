@@ -1,15 +1,13 @@
 import React from "react";
 import { View, Text, ScrollView, ImageBackground } from "react-native";
-import styles from "./styles"; // Importando o estilo
-import Fundo from "../../assets/background3.jpg"; // Imagem de fundo
+import styles from "./styles"; 
+import Fundo from "../../assets/background3.jpg"; 
 
 export default function Comunicados() {
   return (
     <ImageBackground source={Fundo} style={styles.imageBackground}>
       <ScrollView contentContainerStyle={styles.container}>
 
-
-        {/* Conteúdo do Comunicado */}
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Regularização</Text>
           <Text style={styles.cardBody}>
