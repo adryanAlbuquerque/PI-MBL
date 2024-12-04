@@ -18,13 +18,7 @@ export const styles = StyleSheet.create({
     marginVertical: 10,
     alignItems: "flex-start",
   },
-  welcomeText: {
-    fontSize: 40, 
-    color: "white",
-    fontWeight: "bold",
-    marginBottom: 60,
-    textAlign: "center",
-  },
+
   title: {
     fontSize: 20,
     fontWeight: "bold",
